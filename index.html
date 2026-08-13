@@ -62,6 +62,14 @@
   .lang-tab.active::before { background: var(--sand); }
   .lang-tab:hover:not(.active) { border-color: var(--umber); color: var(--text); }
 
+  .view-switch { display: flex; gap: 8px; margin-bottom: 22px; }
+  .view-btn {
+    background: transparent; border: none; color: var(--muted); font-family: 'Fraunces', serif;
+    font-size: 18px; font-weight: 600; padding: 0 0 8px; cursor: pointer; border-bottom: 2px solid transparent;
+  }
+  .view-btn.active { color: var(--forest); border-bottom-color: var(--forest); }
+  .view-btn:hover:not(.active) { color: var(--umber); }
+
   .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 28px; }
   .preset-btn {
     background: var(--card); border: 1px solid var(--border); color: var(--muted);
@@ -176,6 +184,13 @@
   <div class="sub" id="sub">Facebook / Instagram · загрузка...</div>
   <div class="updated" id="updated"></div>
 
+  <div class="view-switch">
+    <button class="view-btn active" id="btn-view-dashboard">Дашборд</button>
+    <button class="view-btn" id="btn-view-strategy">Стратегия</button>
+  </div>
+
+  <div id="dashboard-view">
+
   <div class="lang-switch" id="lang-switch"></div>
   <div class="controls" id="controls"></div>
 
@@ -240,8 +255,11 @@
   <div class="creatives-grid" id="creatives-grid"></div>
   <button class="show-more-btn" id="creatives-more"></button>
 
+  </div>
+
+  <div id="strategy-view" style="display:none;">
   <h2 class="section-title">Стратегия</h2>
-  <div class="section-sub">Гео, аудитория, интересы и сценарии видео-креативов</div>
+  <div class="section-sub">Гео, аудитория, бюджет, позиционирование и сценарии крео</div>
 
   <div class="chart-card">
     <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
@@ -251,7 +269,7 @@
       </div>
       <div>
         <div class="label" style="margin-bottom:6px;">Языки</div>
-        <div style="font-size:15px;">RU · EN · KA</div>
+        <div style="font-size:15px;">EN · KA</div>
       </div>
       <div>
         <div class="label" style="margin-bottom:6px;">Возраст</div>
@@ -259,12 +277,34 @@
       </div>
     </div>
     <div style="margin-top:16px; font-size:13px; color:var(--muted); line-height:1.6;">
-      Куда ведём трафик: приветственные сообщения в Direct/Messenger, на трёх языках (RU/EN/KA). Объектив в Meta — Leads → Messenger/Instagram, не Traffic и не сайт-формы, чтобы весь трафик оставался в переписке.
+      Куда ведём трафик: приветственные сообщения в Direct/Messenger, на двух языках (EN/KA). Объектив в Meta — Leads → Messenger/Instagram, не Traffic и не сайт-формы, чтобы весь трафик оставался в переписке. Ориентир по метрикам: сначала клики и CTR (качество трафика и хука), переписки и цена за переписку — производный показатель.
     </div>
   </div>
 
+  <h3 style="font-family:'Fraunces',serif; font-size:16px; color:var(--forest); margin:24px 0 10px;">Бюджет — $300 / месяц</h3>
   <div class="chart-card">
-    <div class="chart-title">Пул интересов — брать по 2–4 на адсет, не всё сразу</div>
+    <table>
+      <thead><tr><th>Поток</th><th class="num">Бюджет/мес</th><th class="num">≈ в день</th><th>Комментарий</th></tr></thead>
+      <tbody>
+        <tr><td>EN</td><td class="num">$150</td><td class="num">≈$5</td><td>Экспаты, туристы, международное сообщество Тбилиси</td></tr>
+        <tr><td>KA</td><td class="num">$150</td><td class="num">≈$5</td><td>Локальная грузиноязычная аудитория</td></tr>
+      </tbody>
+    </table>
+    <div style="margin-top:14px; font-size:13px; color:var(--muted); line-height:1.7;">
+      Первые 10–14 дней — тестируем все 4 крео-направления поровну на каждом языке. Дальше режем слабые по цене за переписку, оставляем 2 сильных, добавляем вариации именно на них (не новые углы, а вариации хука). Пропорцию EN/KA можно скорректировать после первых 2 недель — если один поток стабильно даёт переписки дешевле, сдвигаем бюджет в его пользу.
+    </div>
+  </div>
+
+  <h3 style="font-family:'Fraunces',serif; font-size:16px; color:var(--forest); margin:24px 0 10px;">Позиционирование</h3>
+  <div class="chart-card">
+    <div style="font-size:13px; color:var(--text); line-height:1.8;">
+      Rituals — это не про "ещё одну фитнес-студию", а про <b>ритуал заботы о себе</b>, встроенный в обычную неделю. Реформер-пилатес здесь — повод прийти к себе, а не про истязание тела ради результата к лету. Тон коммуникации спокойный, без давления и без обещаний "идеальной фигуры за месяц" — упор на ощущение, процесс и атмосферу студии.<br><br>
+      Ключевая мысль для крео и текстов: <b>первое занятие — это не экзамен на растяжку, а знакомство с телом.</b> Снимаем страх "я недостаточно готов(а)" — это самое частое возражение у новичков.
+    </div>
+  </div>
+
+  <h3 style="font-family:'Fraunces',serif; font-size:16px; color:var(--forest); margin:24px 0 10px;">Пул интересов — брать по 2–4 на адсет, не всё сразу</h3>
+  <div class="chart-card">
     <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap: 20px; font-size:13px;">
       <div>
         <div style="font-weight:600; margin-bottom:6px; color:var(--forest);">Ядро ниши</div>
@@ -284,63 +324,69 @@
       </div>
     </div>
     <div style="margin-top:14px; font-size:12px; color:var(--muted);">
-      Конкурентные бренды (проверить в Ads Manager на момент запуска): Club Pilates, SLT, SolidCore, Barry's. Для RU-сегмента — доп. фильтр Language: Russian; для KA — оставить широкий без языкового фильтра.
+      Конкурентные бренды (проверить в Ads Manager на момент запуска): Club Pilates, SLT, SolidCore, Barry's. Для EN-потока можно добавить фильтр Language: English поверх гео; для KA — оставить широкий без языкового фильтра (аудитория Тбилиси в Instagram чаще двуязычная).
     </div>
   </div>
 
-  <h3 style="font-family:'Fraunces',serif; font-size:16px; color:var(--forest); margin:24px 0 10px;">Видео-сценарии (EN) — 4 направления, снимаются на телефон</h3>
+  <h3 style="font-family:'Fraunces',serif; font-size:16px; color:var(--forest); margin:24px 0 10px;">Видео-сценарии — 4 направления, легко снять на телефон</h3>
+  <div class="section-sub">Инструкция по съёмке — на русском. Текст/речь, которые звучат или показываются в самом ролике, — на английском (в кавычках).</div>
 
   <details class="chart-card" style="cursor:pointer;">
-    <summary style="font-weight:600; color:var(--forest);">1 · Atmosphere / Ritual — visuals only, no dialogue</summary>
+    <summary style="font-weight:600; color:var(--forest);">1 · Атмосфера / ритуал студии — без слов, только визуал</summary>
     <div style="margin-top:14px; font-size:13px; line-height:1.8; color:var(--text);">
-      <b>Length:</b> 15–20 sec, vertical<br>
-      <b>Shot list:</b><br>
-      0–3s — close-up: morning light through the studio window, shadow from a curtain/plant, static<br>
-      3–7s — hands adjusting the reformer straps / laying out a mat, slow motion<br>
-      7–12s — wide shot: trainer starting the class, slight camera movement<br>
-      12–18s — close-up on a client's face, focused, natural light<br>
-      18–20s — final shot: empty studio after class, silence<br>
-      <b>Sound:</b> soft instrumental, no voiceover, no on-screen text<br>
-      <b>CTA (caption):</b> "Send us the word TRIAL — we'll tell you how to book your first class"
+      <b>Хронометраж:</b> 15–20 сек, вертикально<br>
+      <b>Что снимать:</b><br>
+      (0–3 сек) Крупный план: утренний свет через окно студии, тень от занавески/растения — статика 2 сек<br>
+      (3–7 сек) Руки поправляют ремни на реформере / раскладывают коврик — замедленно<br>
+      (7–12 сек) Общий план: тренер начинает класс, лёгкое движение камеры<br>
+      (12–18 сек) Крупно — лицо ученицы в моменте концентрации, естественный свет<br>
+      (18–20 сек) Финальный кадр — пустая студия после занятия, тишина<br>
+      <b>Звук:</b> мягкая музыка без слов, без voiceover, без текста на экране в процессе видео<br>
+      <b>Текст в подписи под роликом (это единственный текст в EN):</b> <i>"Send us the word TRIAL — we'll tell you how to book your first class"</i>
     </div>
   </details>
 
   <details class="chart-card" style="cursor:pointer;">
-    <summary style="font-weight:600; color:var(--forest);">2 · Trainer-led, direct to camera</summary>
+    <summary style="font-weight:600; color:var(--forest);">2 · Тренер говорит в камеру</summary>
     <div style="margin-top:14px; font-size:13px; line-height:1.8; color:var(--text);">
-      <b>Length:</b> 20–25 sec<br>
-      0–3s — hook question on camera: "Think Pilates is boring and not for you?"<br>
-      3–12s — addressing the objection: "Your first class isn't about a perfect stretch. It's about feeling how your body can actually move"<br>
-      12–18s — short demo of one reformer move as a cutaway, over the voiceover<br>
-      18–25s — direct CTA to camera: "Message us TRIAL in Direct — we'll find you a time"<br>
-      <b>Tone:</b> like answering a friend, not a sales pitch
+      <b>Хронометраж:</b> 20–25 сек<br>
+      <b>Структура (тренер говорит в камеру, статичный или лёгкий ручной план):</b><br>
+      (0–3 сек) Хук-вопрос в кадре, тренер произносит на английском: <i>"Think Pilates is boring and not for you?"</i><br>
+      (3–12 сек) Снимает главное возражение новичков, произносит: <i>"Your first class isn't about a perfect stretch. It's about feeling how your body can actually move."</i><br>
+      (12–18 сек) Короткая демонстрация одного движения на реформере параллельно с речью (можно как cutaway-кадр)<br>
+      (18–25 сек) Прямой CTA в камеру: <i>"Message us TRIAL in Direct — we'll find you a time."</i><br>
+      <b>Реквизит:</b> только реформер и сам тренер, свет — любой рассеянный<br>
+      <b>Важно (по-русски для тренера):</b> говорить не "продающим" тоном, а как будто отвечает подруге — без пафоса, спокойно и тепло
     </div>
   </details>
 
   <details class="chart-card" style="cursor:pointer;">
-    <summary style="font-weight:600; color:var(--forest);">3 · Before/After as a process, not a result</summary>
+    <summary style="font-weight:600; color:var(--forest);">3 · До/после в формате процесса, не результата</summary>
     <div style="margin-top:14px; font-size:13px; line-height:1.8; color:var(--text);">
-      <b>Length:</b> 15 sec, 4–5 short clips edited together<br>
-      0–2s — on-screen hook: "What happens to your body after 4 classes"<br>
-      2–5s — clip: first class, unsure movement<br>
-      5–9s — clip: third class, more confident<br>
-      9–13s — clip: fifth class, visible ease<br>
-      13–15s — final frame + text: "Not the result — the process. Book now"<br>
-      <b>Production tip:</b> can be cut from footage already collected over 2–3 weeks — no new shoot needed, just archive clips of one client (with consent)
+      <b>Хронометраж:</b> 15 сек, монтаж 4–5 коротких клипов (не история одного дня, а "ощущение процесса")<br>
+      (0–2 сек) Хук-текст на экране на английском: <i>"What happens to your body after 4 classes"</i><br>
+      (2–5 сек) Клип: первое занятие, неуверенное движение<br>
+      (5–9 сек) Клип: третье занятие, уже увереннее<br>
+      (9–13 сек) Клип: пятое занятие, лёгкость в движении<br>
+      (13–15 сек) Финальный кадр + текст на английском: <i>"Not the result — the process. Book now."</i><br>
+      <b>Как снять быстро (по-русски):</b> это можно смонтировать из уже отснятого закулисного материала за 2–3 недели — не нужна новая съёмка с нуля, просто собираешь архив с разных занятий одной ученицы (обязательно с её согласия)
     </div>
   </details>
 
   <details class="chart-card" style="cursor:pointer;">
-    <summary style="font-weight:600; color:var(--forest);">4 · UGC client testimonial</summary>
+    <summary style="font-weight:600; color:var(--forest);">4 · UGC-отзыв ученицы</summary>
     <div style="margin-top:14px; font-size:13px; line-height:1.8; color:var(--text);">
-      <b>Length:</b> 20–30 sec, selfie-style, conversational tone<br>
-      0–4s — "I was skeptical too, honestly"<br>
-      4–12s — "I thought it'd be like yoga, but no — I actually feel muscles I didn't know I had"<br>
-      12–20s — "The easiest part — I just messaged them on Direct, asked about the trial, and they explained everything"<br>
-      20–25s — "If you're unsure — just message them, it's not scary"<br>
-      <b>How to get it:</b> not staged — ask 2–3 loyal clients to record a voice-note-style video on their phone after class. The less produced it looks, the better it converts.
+      <b>Хронометраж:</b> 20–30 сек, селфи-формат, разговорный тон<br>
+      <b>Структура (ученица говорит на английском, снимает сама на телефон):</b><br>
+      (0–4 сек) <i>"I was skeptical too, honestly."</i><br>
+      (4–12 сек) <i>"I thought it'd be like yoga, but no — I actually feel muscles I didn't know I had."</i><br>
+      (12–20 сек) <i>"The easiest part — I just messaged them on Direct, asked about the trial, and they explained everything."</i><br>
+      (20–25 сек) <i>"If you're unsure — just message them, it's not scary."</i><br>
+      <b>Как получить (по-русски):</b> не постановка, а просьба к 2–3 лояльным ученицам записать голосовое видео на телефон после занятия — чем менее "снято", тем выше конверсия
     </div>
   </details>
+
+  </div>
 
   <div class="modal-overlay" id="modal-overlay">
     <div class="modal-box">
@@ -410,6 +456,19 @@
     let openAdsets = new Set();
     let geoExpanded = false;
     let creativesExpanded = false;
+
+    document.getElementById('btn-view-dashboard').addEventListener('click', () => {
+      document.getElementById('btn-view-dashboard').classList.add('active');
+      document.getElementById('btn-view-strategy').classList.remove('active');
+      document.getElementById('dashboard-view').style.display = '';
+      document.getElementById('strategy-view').style.display = 'none';
+    });
+    document.getElementById('btn-view-strategy').addEventListener('click', () => {
+      document.getElementById('btn-view-strategy').classList.add('active');
+      document.getElementById('btn-view-dashboard').classList.remove('active');
+      document.getElementById('dashboard-view').style.display = 'none';
+      document.getElementById('strategy-view').style.display = '';
+    });
 
     async function loadAll() {
       const res = await fetch('data/report.json?t=' + Date.now());
@@ -599,7 +658,7 @@
 
       let rows = campaignsForLang().map(campaignRow).filter(r => r.spend > 0 || r.messages > 0);
       if (campaignsStatusFilter === 'active') rows = rows.filter(r => r.status === 'ACTIVE');
-      rows.sort((a, b) => b.spend - a.spend);
+      rows.sort((a, b) => b.clicks - a.clicks);
 
       document.getElementById('campaigns-sub').textContent = `${rows.length} кампаний · раскрывай — увидишь аудитории, дальше креативы`;
 
@@ -622,6 +681,8 @@
               <span class="status-dot ${c.status === 'ACTIVE' ? 'ACTIVE' : 'other'}"></span>
               <span class="name">${c.name}</span>
               <span class="metric">${fmtMoney(c.spend)}</span>
+              <span class="metric"><b>${fmtNum(c.clicks)}</b> кликов</span>
+              <span class="metric">${fmtPct(c.ctr)} CTR</span>
               <span class="metric"><b>${fmtNum(c.messages)}</b> перепис.</span>
               <span class="metric">${fmtMoney(c.costPerMessage)}</span>
             </div>
@@ -651,7 +712,7 @@
     function renderAdsetsFor(campaignId) {
       const container = document.getElementById('children-' + campaignId);
       if (!container) return;
-      const rows = adsetsForCampaign(campaignId).map(campaignRow).filter(r => r.spend > 0 || r.messages > 0).sort((a, b) => b.spend - a.spend);
+      const rows = adsetsForCampaign(campaignId).map(campaignRow).filter(r => r.spend > 0 || r.messages > 0).sort((a, b) => b.clicks - a.clicks);
 
       if (!rows.length) {
         container.innerHTML = `<div class="empty">Нет активности по аудиториям за период</div>`;
@@ -666,6 +727,8 @@
               <span class="chevron">▶</span>
               <span class="name">${a.name}</span>
               <span class="metric">${fmtMoney(a.spend)}</span>
+              <span class="metric"><b>${fmtNum(a.clicks)}</b> кликов</span>
+              <span class="metric">${fmtPct(a.ctr)} CTR</span>
               <span class="metric"><b>${fmtNum(a.messages)}</b> перепис.</span>
               <span class="metric">${fmtMoney(a.costPerMessage)}</span>
             </div>
@@ -688,7 +751,7 @@
     function renderCreativesFor(adsetId) {
       const container = document.getElementById('creatives-' + adsetId);
       if (!container) return;
-      const rows = creativesForAdset(adsetId).map(campaignRow).filter(r => r.spend > 0 || r.messages > 0).sort((a, b) => b.messages - a.messages);
+      const rows = creativesForAdset(adsetId).map(campaignRow).filter(r => r.spend > 0 || r.messages > 0).sort((a, b) => b.clicks - a.clicks);
 
       if (!rows.length) {
         container.innerHTML = `<div class="empty" style="text-align:left;padding:6px 0;">Нет активных креативов в этой аудитории за период</div>`;
@@ -743,19 +806,23 @@
         const withoutMsg = rows.filter(r => r.messages === 0).sort((a, b) => b.spend - a.spend);
         return [...withMsg, ...withoutMsg];
       }
+      if (mode === 'clicks') return [...rows].sort((a, b) => b.clicks - a.clicks);
+      if (mode === 'ctr') return [...rows].sort((a, b) => b.ctr - a.ctr);
       return [...rows].sort((a, b) => b.messages - a.messages);
     }
 
     function renderRateToggle(elId, mode, onSelect) {
       document.getElementById(elId).innerHTML = `
-        <button class="toggle-btn ${mode === 'messages' ? 'active' : ''}" data-k="messages">По количеству</button>
-        <button class="toggle-btn ${mode === 'cost' ? 'active' : ''}" data-k="cost">По цене</button>`;
+        <button class="toggle-btn ${mode === 'clicks' ? 'active' : ''}" data-k="clicks">По кликам</button>
+        <button class="toggle-btn ${mode === 'ctr' ? 'active' : ''}" data-k="ctr">По CTR</button>
+        <button class="toggle-btn ${mode === 'messages' ? 'active' : ''}" data-k="messages">По переписке</button>
+        <button class="toggle-btn ${mode === 'cost' ? 'active' : ''}" data-k="cost">По цене переписки</button>`;
       document.querySelectorAll(`#${elId} .toggle-btn`).forEach(b => b.addEventListener('click', () => onSelect(b.dataset.k)));
     }
 
-    let demoSortMode = 'messages', demoExpanded = false;
-    let geoSortMode = 'messages';
-    let devicesSortMode = 'messages', devicesExpanded = false;
+    let demoSortMode = 'clicks', demoExpanded = false;
+    let geoSortMode = 'clicks';
+    let devicesSortMode = 'clicks', devicesExpanded = false;
 
     function renderDemo() {
       renderRateToggle('demo-toggle', demoSortMode, (k) => { demoSortMode = k; renderDemo(); });
@@ -836,7 +903,7 @@
         const campCampaignIds = new Set(campaignsForLang().map(c => c.id));
         rows = rows.filter(r => campCampaignIds.has(r.campaign_id));
       }
-      rows.sort((a, b) => b.messages - a.messages);
+      rows.sort((a, b) => b.clicks - a.clicks);
 
       document.getElementById('creatives-sub').textContent = `${rows.length} объявлений за период · клик — детали`;
       const visible = creativesExpanded ? rows : rows.slice(0, 10);
@@ -854,7 +921,7 @@
           <div class="creative-thumb" style="${c.thumbnail_url ? `background-image:url('${c.thumbnail_url}')` : ''}">${c.thumbnail_url ? '' : 'нет превью'}</div>
           <div class="creative-info">
             <div class="creative-name" title="${c.name}">${c.name}</div>
-            <div class="creative-stats"><span class="msg">${fmtNum(c.messages)} перепис.</span><span>${fmtMoney(c.costPerMessage)}</span></div>
+            <div class="creative-stats"><span class="msg">${fmtNum(c.clicks)} кликов</span><span>${fmtPct(c.ctr)}</span></div>
           </div>
         </div>`).join('');
       grid.querySelectorAll('.creative-card').forEach(el => el.addEventListener('click', () => openCreativeModal(visible[+el.dataset.idx])));
