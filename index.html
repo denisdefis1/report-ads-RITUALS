@@ -198,17 +198,17 @@
 
   <h2 class="section-title">Динамика по дням</h2>
   <div class="chart-card">
-    <div class="chart-title">Расход и начатые переписки</div>
-    <canvas id="chart-spend-msg" height="90"></canvas>
+    <div class="chart-title">Клики и CTR</div>
+    <canvas id="chart-clicks-ctr" height="90"></canvas>
   </div>
   <div class="grid-2">
     <div class="chart-card">
-      <div class="chart-title">Цена за переписку</div>
-      <canvas id="chart-cpm-msg" height="110"></canvas>
+      <div class="chart-title">Расход</div>
+      <canvas id="chart-spend" height="110"></canvas>
     </div>
     <div class="chart-card">
-      <div class="chart-title">CTR</div>
-      <canvas id="chart-ctr" height="110"></canvas>
+      <div class="chart-title">Переписки и цена за переписку</div>
+      <canvas id="chart-msg-cpm" height="110"></canvas>
     </div>
   </div>
 
@@ -590,14 +590,14 @@
       const cards = [
         { label: 'Расход', value: fmtMoney(t.spend), delta: isAllTime ? '' : deltaBadge(deltaPct(t.spend, prevT.spend), true),
           note: `план месяца ${fmtMoney(planTarget)} · ${budgetPct.toFixed(1)}%`, barPct: budgetPct },
-        { label: 'Охват', value: reach !== null ? fmtNum(reach) : '—', note: reach === null ? 'точно только на кнопках периода' : '' },
-        { label: 'Показы', value: fmtNum(t.impressions), delta: isAllTime ? '' : deltaBadge(deltaPct(t.impressions, prevT.impressions), false) },
         { label: 'Клики', value: fmtNum(t.clicks), delta: isAllTime ? '' : deltaBadge(deltaPct(t.clicks, prevT.clicks), false) },
         { label: 'CTR', value: fmtPct(t.ctr) },
         { label: 'Клики по ссылке', value: fmtNum(t.linkClicks) },
         { label: 'CTR по ссылке', value: fmtPct(t.linkCtr) },
+        { label: 'Охват', value: reach !== null ? fmtNum(reach) : '—', note: reach === null ? 'точно только на кнопках периода' : '' },
+        { label: 'Показы', value: fmtNum(t.impressions), delta: isAllTime ? '' : deltaBadge(deltaPct(t.impressions, prevT.impressions), false) },
         { label: 'CPM', value: fmtMoney(t.cpm) },
-        { label: 'Подписчики Instagram', value: '—', note: 'Meta пока не отдаёт эту метрику через API (только в интерфейсе Ads Manager)' },
+        { label: 'Подписчики Instagram', value: isAllTime ? '1 771' : '—', note: isAllTime ? 'Посчитано вручную (Meta пока не отдаёт эту метрику через API)' : 'Точное число — только на кнопке «Всё время» (разовый ручной подсчёт)' },
         { label: 'Переписки', value: fmtNum(t.messages), delta: isAllTime ? '' : deltaBadge(deltaPct(t.messages, prevT.messages), false) },
         { label: 'Цена за переписку', value: fmtMoney(t.costPerMessage), delta: isAllTime ? '' : deltaBadge(deltaPct(t.costPerMessage, prevT.costPerMessage), true) },
       ];
@@ -619,28 +619,34 @@
       const gridColor = '#E4DCC9';
       const scalesX = { grid: { color: gridColor }, ticks: { color: '#6B6255', font: { size: 11 } } };
 
-      charts.spendMsg = new Chart(document.getElementById('chart-spend-msg'), {
+      charts.clicksCtr = new Chart(document.getElementById('chart-clicks-ctr'), {
         data: {
           labels,
           datasets: [
-            { type: 'bar', label: 'Переписки', data: daily.map(d => d.messages), backgroundColor: '#3E6B52', yAxisID: 'y1', borderRadius: 3, maxBarThickness: 24 },
-            { type: 'line', label: 'Расход', data: daily.map(d => d.spend), borderColor: '#162B26', backgroundColor: 'rgba(22,43,38,0.08)', fill: true, tension: 0.35, yAxisID: 'y', pointRadius: 0 },
+            { type: 'bar', label: 'Клики', data: daily.map(d => d.clicks), backgroundColor: '#162B26', yAxisID: 'y', borderRadius: 3, maxBarThickness: 24 },
+            { type: 'line', label: 'CTR', data: daily.map(d => d.impressions ? Math.round(d.clicks / d.impressions * 100 * 100) / 100 : 0), borderColor: '#3E6B52', backgroundColor: 'rgba(62,107,82,0.1)', fill: true, tension: 0.35, yAxisID: 'y1', pointRadius: 0 },
+          ],
+        },
+        options: { responsive: true, plugins: { legend: { display: false } },
+          scales: { x: scalesX, y: { position: 'left', grid: { color: gridColor }, ticks: { color: '#6B6255' } }, y1: { position: 'right', grid: { display: false }, ticks: { color: '#6B6255', callback: v => v + '%' } } } },
+      });
+
+      charts.spend = new Chart(document.getElementById('chart-spend'), {
+        type: 'line',
+        data: { labels, datasets: [{ data: daily.map(d => d.spend), borderColor: '#564F3F', backgroundColor: 'rgba(86,79,63,0.08)', fill: true, tension: 0.35, pointRadius: 0 }] },
+        options: { responsive: true, plugins: { legend: { display: false } }, scales: { x: scalesX, y: { grid: { color: gridColor }, ticks: { color: '#6B6255', callback: v => '$' + v } } } },
+      });
+
+      charts.msgCpm = new Chart(document.getElementById('chart-msg-cpm'), {
+        data: {
+          labels,
+          datasets: [
+            { type: 'bar', label: 'Переписки', data: daily.map(d => d.messages), backgroundColor: '#C5BCAB', yAxisID: 'y1', borderRadius: 3, maxBarThickness: 24 },
+            { type: 'line', label: 'Цена', data: daily.map(d => d.messages ? Math.round(d.spend / d.messages * 100) / 100 : null), borderColor: '#4E4138', tension: 0.35, pointRadius: 0, spanGaps: true, yAxisID: 'y' },
           ],
         },
         options: { responsive: true, plugins: { legend: { display: false } },
           scales: { x: scalesX, y: { position: 'left', grid: { color: gridColor }, ticks: { color: '#6B6255', callback: v => '$' + v } }, y1: { position: 'right', grid: { display: false }, ticks: { color: '#6B6255' } } } },
-      });
-
-      charts.cpm = new Chart(document.getElementById('chart-cpm-msg'), {
-        type: 'line',
-        data: { labels, datasets: [{ data: daily.map(d => d.messages ? Math.round(d.spend / d.messages * 100) / 100 : null), borderColor: '#4E4138', tension: 0.35, pointRadius: 0, spanGaps: true }] },
-        options: { responsive: true, plugins: { legend: { display: false } }, scales: { x: scalesX, y: { grid: { color: gridColor }, ticks: { color: '#6B6255', callback: v => '$' + v } } } },
-      });
-
-      charts.ctr = new Chart(document.getElementById('chart-ctr'), {
-        type: 'line',
-        data: { labels, datasets: [{ data: daily.map(d => d.impressions ? Math.round(d.clicks / d.impressions * 100 * 100) / 100 : 0), borderColor: '#564F3F', tension: 0.35, pointRadius: 0 }] },
-        options: { responsive: true, plugins: { legend: { display: false } }, scales: { x: scalesX, y: { grid: { color: gridColor }, ticks: { color: '#6B6255', callback: v => v + '%' } } } },
       });
     }
 
