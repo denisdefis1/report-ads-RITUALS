@@ -1,0 +1,3285 @@
+{
+  "last_updated": "13.08.2026, 10:49",
+  "fetched_range": {
+    "since": "2026-08-01",
+    "until": "2026-08-13"
+  },
+  "plan": {
+    "monthly_budget": 300
+  },
+  "languages": [
+    "EN",
+    "KA",
+    "RU"
+  ],
+  "account_daily": [
+    {
+      "date": "2026-08-01",
+      "spend": 24.85,
+      "messages": 0,
+      "followers": 0,
+      "clicks": 464,
+      "link_clicks": 467,
+      "impressions": 21617
+    },
+    {
+      "date": "2026-08-02",
+      "spend": 27.32,
+      "messages": 1,
+      "followers": 0,
+      "clicks": 517,
+      "link_clicks": 523,
+      "impressions": 23455
+    },
+    {
+      "date": "2026-08-03",
+      "spend": 24.0,
+      "messages": 0,
+      "followers": 0,
+      "clicks": 487,
+      "link_clicks": 497,
+      "impressions": 20651
+    },
+    {
+      "date": "2026-08-04",
+      "spend": 15.74,
+      "messages": 0,
+      "followers": 0,
+      "clicks": 264,
+      "link_clicks": 265,
+      "impressions": 14058
+    },
+    {
+      "date": "2026-08-05",
+      "spend": 10.61,
+      "messages": 0,
+      "followers": 0,
+      "clicks": 158,
+      "link_clicks": 159,
+      "impressions": 9885
+    },
+    {
+      "date": "2026-08-06",
+      "spend": 7.98,
+      "messages": 0,
+      "followers": 0,
+      "clicks": 101,
+      "link_clicks": 102,
+      "impressions": 7558
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "52531917429124",
+      "name": "Test 1 | 4 аудитории | трафик в инстаграм",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 11.83,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 302,
+          "link_clicks": 304,
+          "impressions": 9994
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 13.61,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 316,
+          "link_clicks": 320,
+          "impressions": 10802
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 12.43,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 344,
+          "link_clicks": 352,
+          "impressions": 10011
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 4.84,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 120,
+          "link_clicks": 123,
+          "impressions": 3943
+        }
+      ],
+      "language": null,
+      "status": "PAUSED"
+    },
+    {
+      "id": "52639423566724",
+      "name": "Test 10 | 2 аудитории — Копия",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 13.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 162,
+          "link_clicks": 163,
+          "impressions": 11623
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 13.71,
+          "messages": 1,
+          "followers": 0,
+          "clicks": 201,
+          "link_clicks": 203,
+          "impressions": 12653
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 11.57,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 143,
+          "link_clicks": 145,
+          "impressions": 10640
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 10.9,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 144,
+          "link_clicks": 142,
+          "impressions": 10115
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 10.61,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 158,
+          "link_clicks": 159,
+          "impressions": 9885
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 7.98,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 101,
+          "link_clicks": 102,
+          "impressions": 7558
+        }
+      ],
+      "language": null,
+      "status": "PAUSED"
+    }
+  ],
+  "adsets": [
+    {
+      "id": "52531917429324",
+      "name": "1 аудитория | женская | марджинашвили",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 6.81,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 189,
+          "link_clicks": 190,
+          "impressions": 5510
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 8.18,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 178,
+          "link_clicks": 181,
+          "impressions": 6170
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 7.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 192,
+          "link_clicks": 196,
+          "impressions": 5023
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 2.19,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 65,
+          "link_clicks": 68,
+          "impressions": 1538
+        }
+      ],
+      "campaign_id": "52531917429124"
+    },
+    {
+      "id": "52531933763724",
+      "name": "2 аудитория | женская | марджинашвили",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.13,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 105
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.12,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 65
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.94,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 29,
+          "link_clicks": 29,
+          "impressions": 815
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 1.18,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 17,
+          "link_clicks": 17,
+          "impressions": 1098
+        }
+      ],
+      "campaign_id": "52531917429124"
+    },
+    {
+      "id": "52531934258924",
+      "name": "2 аудитория |мужская и женская | it",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 4.89,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 110,
+          "link_clicks": 111,
+          "impressions": 4379
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 5.31,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 136,
+          "link_clicks": 137,
+          "impressions": 4567
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 4.49,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 123,
+          "link_clicks": 127,
+          "impressions": 4173
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 1.47,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 38,
+          "link_clicks": 38,
+          "impressions": 1307
+        }
+      ],
+      "campaign_id": "52531917429124"
+    },
+    {
+      "id": "52639423566524",
+      "name": "2 аудитория |мужская и женская | it",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 13.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 162,
+          "link_clicks": 163,
+          "impressions": 11623
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 13.71,
+          "messages": 1,
+          "followers": 0,
+          "clicks": 201,
+          "link_clicks": 203,
+          "impressions": 12653
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 11.57,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 143,
+          "link_clicks": 145,
+          "impressions": 10640
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 10.9,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 144,
+          "link_clicks": 142,
+          "impressions": 10115
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 10.61,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 158,
+          "link_clicks": 159,
+          "impressions": 9885
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 7.98,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 101,
+          "link_clicks": 102,
+          "impressions": 7558
+        }
+      ],
+      "campaign_id": "52639423566724"
+    }
+  ],
+  "creatives": [
+    {
+      "id": "52531933764124",
+      "name": "3",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.13,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 103
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.12,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 62
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.17,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 75
+        }
+      ],
+      "adset_id": "52531933763724",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t15.5256-10/655937536_1257247299198323_7287250583602238906_n.jpg?_nc_cat=107&ccb=1-7&_nc_ohc=9ysLwia4BXcQ7kNvwGcASw0&_nc_oc=Adr6mvalPS4AGnLoNcg-IVw_Ibjjf6dOwoZe_p4Cb9yurgJnl7TNkOr4ePKku22vGX8&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=l3Qp-z568Swi5JPnAJgCwQ&_nc_tpa=Q5bMBQKhcawMwxpgpkYz7G9-vPemBM4oUhao93Vd69E3hA6O231eQuZ4AEJzLTQKu1Rjb5cywfA-fk6K5Q&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQFFCPRT0c9NMV3-0K2ftvSsz7iyf7SNp_mrqqjieApUAw&oe=6A836626"
+    },
+    {
+      "id": "52531934259324",
+      "name": "3",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 19
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 13
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.05,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 23
+        }
+      ],
+      "adset_id": "52531934258924",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t15.5256-10/655937536_1257247299198323_7287250583602238906_n.jpg?_nc_cat=107&ccb=1-7&_nc_ohc=9ysLwia4BXcQ7kNvwGcASw0&_nc_oc=Adr6mvalPS4AGnLoNcg-IVw_Ibjjf6dOwoZe_p4Cb9yurgJnl7TNkOr4ePKku22vGX8&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=l3Qp-z568Swi5JPnAJgCwQ&_nc_tpa=Q5bMBQIcGdOZUJwHexVPEqrQdwY41NzTfJ77qXkR6rUGYsHZeaoB60e6DmF5H5GoCaOmDiwJ_wAhf0WUaA&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQGftzYsh1Kpsd4FWVgoj-GiBBnB5u2jjdA0myO6iqyFOw&oe=6A836626"
+    },
+    {
+      "id": "52552288281524",
+      "name": "5",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 4.85,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 107,
+          "link_clicks": 108,
+          "impressions": 4335
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 5.16,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 134,
+          "link_clicks": 135,
+          "impressions": 4493
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 4.44,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 121,
+          "link_clicks": 125,
+          "impressions": 4150
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 1.42,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 38,
+          "link_clicks": 38,
+          "impressions": 1287
+        }
+      ],
+      "adset_id": "52531934258924",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://external-lhr11-1.xx.fbcdn.net/emg1/v/t13/983821800382973832?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJF7c5-1exJq3CKgnASTx8EjVeIveXPvi1FVQwtdkk6UUKKaZO2DkkkjtdeDo-RnMyRkiDChAtwYKJBKyBdipZwkIRn69G39RXczSr4VzK3S7v3AHMoAtiPJ5Gcog50FV75ZANjIvWWgwWRU4be2_aA&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=pttRZ9IXLnejzZn0J_31jQ&_nc_oc=AdqXy0MBc-0Uel2tuF97-CUe-l4bFJyRW4vL0fitTLGF03Lfp7Hebpkjy49K_HOWtuo&ccb=13-1&oh=06_Q3_CAYHIuWLyPp7NrdgbVl51Ehojx7qFjIx0rT-DLW7g8Bfr&oe=6A7F86CD&_nc_sid=58080a"
+    },
+    {
+      "id": "52552288322924",
+      "name": "5",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 6.8,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 189,
+          "link_clicks": 190,
+          "impressions": 5484
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 8.09,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 177,
+          "link_clicks": 180,
+          "impressions": 6082
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 6.81,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 190,
+          "link_clicks": 195,
+          "impressions": 4904
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 2.17,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 65,
+          "link_clicks": 68,
+          "impressions": 1508
+        }
+      ],
+      "adset_id": "52531917429324",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://external-lhr11-1.xx.fbcdn.net/emg1/v/t13/14219483844872018406?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKLyOE-xf0xmmI_9JDqMiSmOQeCH80U3UjjCTCzBdC0yJr6OxG8uENWOe1x2THdsIAXi8O38IZKb8KpWzsK3PRCWWnK0eFn0UAebU_314jSQee1p0MlkqbI6yaF-ccC2KSLQKgzJuZw_NWwDT5nJrT_&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=pttRZ9IXLnejzZn0J_31jQ&_nc_oc=AdqsLgAnrcYjstL7dmq5VdHLrkV9Ao9vNZdVuSaEZu3yFACgDA9yhLm7D4E0UpcLiGQ&ccb=13-1&oh=06_Q3_CAakwIrDjsXrhrbj8CXFI89EVcHpian8ZYXa0n08hnW06&oe=6A7F977E&_nc_sid=58080a"
+    },
+    {
+      "id": "52560845515724",
+      "name": "7",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 6
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.07,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 32
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 14
+        }
+      ],
+      "adset_id": "52531934258924",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t15.5256-10/685040600_1265877572406062_5646360755064309620_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=_CI2CiY0ZAcQ7kNvwFrosHC&_nc_oc=AdoswTZ12gbNDHGoGsXz-dPk38Toj2OKuEmhT_3Bv_xNOemo7G2GYRRH5YwUWqjYTts&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=pttRZ9IXLnejzZn0J_31jQ&_nc_tpa=Q5bMBQKw4naseD_vh6mrbWwCywfbA48Wb-NdUzZweX_dunEdQ6q5sKvgPbEpPannsuQEw1EIqVWeA85ErQ&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQH1dcpDkeW1Z_QW9qGVeLKZXuCl6m9Lr-fpnHrd3lAWMA&oe=6A838D8A"
+    },
+    {
+      "id": "52560845712924",
+      "name": "8",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 19
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.06,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 29
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.03,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 6
+        }
+      ],
+      "adset_id": "52531934258924",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t15.5256-10/686423164_1622109922361067_416997076472980460_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=QDIyEd9Pu5sQ7kNvwHyBVf5&_nc_oc=AdoVOm63ktjiWgG2KMnsP6mX5HuVj5mNwHhXpgjjxrflmvH8Ofsdn04o2BcO5acw90o&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=pttRZ9IXLnejzZn0J_31jQ&_nc_tpa=Q5bMBQLT4eLruegf-VqfO-KFDzhwDxKGxvsSbl6G9vmM2YUS14sZKoR5ZMrcZS4cWvJOLGm-vuoHjdsdgw&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQEohcQso--tjNJy0mFj7Fj9s4q5CXscxJUsy8quvQwc9Q&oe=6A836409"
+    },
+    {
+      "id": "52560853200924",
+      "name": "8",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 2
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 2
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 3
+        }
+      ],
+      "adset_id": "52531933763724",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t15.5256-10/684908834_1716086545941054_4304689203968631586_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=KxoHV7H6IEsQ7kNvwGUo_cX&_nc_oc=AdpEOset9a18mPgHzXKWFprYuCFTlL8h2VqKg90olXeIIXiNZ44f8dtRKv9896lBdso&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=pttRZ9IXLnejzZn0J_31jQ&_nc_tpa=Q5bMBQL4Y3ILN7PPrIBsV0gD7iNUeaBmXvGPGJ2gEn4SfCR5m-v7e8s5snuMs565PaZdef7x2-IpM26Ozw&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQEm3uVO873zequvBo9tr-Sk3X0dt-AagiGrKy8w_0H3gw&oe=6A838493"
+    },
+    {
+      "id": "52560853808924",
+      "name": "7",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 26
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.05,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 61
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.12,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 1,
+          "impressions": 83
+        }
+      ],
+      "adset_id": "52531917429324",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t15.5256-10/684908834_1716086545941054_4304689203968631586_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=KxoHV7H6IEsQ7kNvwGUo_cX&_nc_oc=AdpEOset9a18mPgHzXKWFprYuCFTlL8h2VqKg90olXeIIXiNZ44f8dtRKv9896lBdso&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=pttRZ9IXLnejzZn0J_31jQ&_nc_tpa=Q5bMBQJdxMcRsnwzHmG3rf-Tsa-vzw4BZyPWgy9aMFUZ5lODC85YxYKd8t8FVekPnrpnmKXbx7kbaLDxUw&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQGTk0wbRm9D5zim6gRoUOJqQCF_Sm6yRcgL7XnikTe4ew&oe=6A838493"
+    },
+    {
+      "id": "52639423566924",
+      "name": "2",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 13.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 162,
+          "link_clicks": 163,
+          "impressions": 11623
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 13.71,
+          "messages": 1,
+          "followers": 0,
+          "clicks": 201,
+          "link_clicks": 203,
+          "impressions": 12653
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 11.57,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 143,
+          "link_clicks": 145,
+          "impressions": 10640
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 10.9,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 144,
+          "link_clicks": 142,
+          "impressions": 10115
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 10.61,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 158,
+          "link_clicks": 159,
+          "impressions": 9885
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 7.98,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 101,
+          "link_clicks": 102,
+          "impressions": 7558
+        }
+      ],
+      "adset_id": "52639423566524",
+      "campaign_id": "52639423566724",
+      "thumbnail_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t15.5256-10/755170889_1554190023105883_649940754997587204_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=qB92syFkbaMQ7kNvwHMkd-k&_nc_oc=AdpsCBGfucn_C2a324xWAoHo15ID2JbBiUIIyKADFOyHJOxDu1nnqrStqYu8Po854gQ&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=PNaLotaj7KGYrSbKo9hFqg&_nc_tpa=Q5bMBQIu_k7VqqDubEctwyVPHH7gw8NWc9prfCTztgig72uUZ6x44emd7HAX4Uyg__-J5rLD2Pk71TyUnQ&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQEJCc1l4nWVKI9JuvZevzJ_le2OxS66DT121qNqGzqlHA&oe=6A837DEA"
+    },
+    {
+      "id": "52531933719924",
+      "name": "3",
+      "daily": [
+        {
+          "date": "2026-08-02",
+          "spend": 0.03,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 9
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.04,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 30
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 16
+        }
+      ],
+      "adset_id": "52531917429324",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t15.5256-10/655937536_1257247299198323_7287250583602238906_n.jpg?_nc_cat=107&ccb=1-7&_nc_ohc=9ysLwia4BXcQ7kNvwGcASw0&_nc_oc=Adr6mvalPS4AGnLoNcg-IVw_Ibjjf6dOwoZe_p4Cb9yurgJnl7TNkOr4ePKku22vGX8&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=l3Qp-z568Swi5JPnAJgCwQ&_nc_tpa=Q5bMBQJcUNEdtKMGzahiwUnko6mjp_yT6pEKbhmXJbdmAWcMXln0CHFYveFg_dN2N0BC4cYciged-E9ybw&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQFsrnFmxHX8KObh-bs5pnFqctQH1QMEZLX5Eu-bnYk9AA&oe=6A836626"
+    },
+    {
+      "id": "52560853070124",
+      "name": "7",
+      "daily": [
+        {
+          "date": "2026-08-02",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        }
+      ],
+      "adset_id": "52531933763724",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://scontent-lhr6-1.xx.fbcdn.net/v/t15.5256-10/685040600_1265877572406062_5646360755064309620_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=_CI2CiY0ZAcQ7kNvwFrosHC&_nc_oc=AdoswTZ12gbNDHGoGsXz-dPk38Toj2OKuEmhT_3Bv_xNOemo7G2GYRRH5YwUWqjYTts&_nc_zt=23&_nc_ht=scontent-lhr6-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=pttRZ9IXLnejzZn0J_31jQ&_nc_tpa=Q5bMBQLac-nczMyxs-E8jtGWPBw6AtW8qnD4ab3UPTD7zvrEu5I-w6n6aKSld7QMH1Np1N6DuHbHH5Zhwg&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQG8cao3sEm--oO5N7CAg-BUUkhwEcHVmIrtFWiuLfFDDw&oe=6A838D8A"
+    },
+    {
+      "id": "52560853974724",
+      "name": "8",
+      "daily": [
+        {
+          "date": "2026-08-02",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 18
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.03,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 6
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 14
+        }
+      ],
+      "adset_id": "52531917429324",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t15.5256-10/686423164_1622109922361067_416997076472980460_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=QDIyEd9Pu5sQ7kNvwHyBVf5&_nc_oc=AdoVOm63ktjiWgG2KMnsP6mX5HuVj5mNwHhXpgjjxrflmvH8Ofsdn04o2BcO5acw90o&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=pttRZ9IXLnejzZn0J_31jQ&_nc_tpa=Q5bMBQLGxg-W6ZW9DAwKpgdSyjdJzIRVofv_gDeF3q0V4L5PnpxW9tO-7HBmp8pGiUvL1DFHHHJ1wKh7JA&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&ur=5fad0e&_nc_sid=58080a&oh=00_AQFS6lO9fM3gI3Sk9PHMv0f1VM-B_FnlUEC_-pCMr5XUdA&oe=6A836409"
+    },
+    {
+      "id": "52552287884924",
+      "name": "5",
+      "daily": [
+        {
+          "date": "2026-08-03",
+          "spend": 0.76,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 27,
+          "link_clicks": 27,
+          "impressions": 737
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 1.18,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 17,
+          "link_clicks": 17,
+          "impressions": 1098
+        }
+      ],
+      "adset_id": "52531933763724",
+      "campaign_id": "52531917429124",
+      "thumbnail_url": "https://external-lhr11-1.xx.fbcdn.net/emg1/v/t13/675709791654104768?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLkfumiq7RVmmq_IgKjOnZZ3HgGGJ_M4PvQgNGEF1va71sSGNztmH9QXjAUvCnDWxmvKr9VBsH1BfKGxvmmGRFB-vfoBwevOZmbab57vjQ7wpnLNfYFBxlfH5IPkR4O0kt5J8Hf_1ucScdG72kTb7t5&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p720x720_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=y_PoLggDApbWiOn4z7EJaQ&_nc_oc=AdrkxPa-7kWm_nC96A7exsiHGAP1Z0nJ-L-XFH-96F_V1TJZ9uFhjlykeoeweSS9brs&ccb=13-1&oh=06_Q3_CAeGC6nWrjCl2EEHOBfsvibW2Lv5nrA7iDykb8Fz-FAub&oe=6A7F8085&_nc_sid=58080a"
+    }
+  ],
+  "age_groups": [
+    {
+      "campaign_id": "52531917429124",
+      "age": "18-24",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 2.39,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 68,
+          "link_clicks": 69,
+          "impressions": 2959
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 2.36,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 56,
+          "link_clicks": 57,
+          "impressions": 2997
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 2.51,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 57,
+          "link_clicks": 58,
+          "impressions": 2874
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.87,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 12,
+          "link_clicks": 12,
+          "impressions": 1066
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "18-24",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 3.11,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 85,
+          "link_clicks": 85,
+          "impressions": 2460
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 3.43,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 73,
+          "link_clicks": 73,
+          "impressions": 2835
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 3.65,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 97,
+          "link_clicks": 99,
+          "impressions": 2791
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 1.55,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 40,
+          "link_clicks": 41,
+          "impressions": 1184
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "18-24",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.07,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 36
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.1,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 46
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.05,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 38
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 20
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "25-34",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 1.78,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 33,
+          "link_clicks": 33,
+          "impressions": 1822
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 1.83,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 50,
+          "link_clicks": 51,
+          "impressions": 1764
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 1.5,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 45,
+          "link_clicks": 45,
+          "impressions": 1512
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.39,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 8,
+          "link_clicks": 8,
+          "impressions": 535
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "25-34",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 2.62,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 68,
+          "link_clicks": 69,
+          "impressions": 1457
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 3.37,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 84,
+          "link_clicks": 84,
+          "impressions": 1756
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 2.54,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 80,
+          "link_clicks": 83,
+          "impressions": 1570
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 1.24,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 35,
+          "link_clicks": 35,
+          "impressions": 656
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "25-34",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 22
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.06,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 27
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.05,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 33
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 3
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "35-44",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.59,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 15,
+          "link_clicks": 13,
+          "impressions": 488
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.74,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 11,
+          "link_clicks": 11,
+          "impressions": 500
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.48,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 15,
+          "link_clicks": 15,
+          "impressions": 398
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.23,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 5,
+          "link_clicks": 7,
+          "impressions": 132
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "35-44",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.58,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 18,
+          "link_clicks": 20,
+          "impressions": 293
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.81,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 20,
+          "link_clicks": 20,
+          "impressions": 383
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.76,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 23,
+          "link_clicks": 24,
+          "impressions": 342
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.27,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 6,
+          "link_clicks": 6,
+          "impressions": 154
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "35-44",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 3
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 3
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.03,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 6
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 3
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "45-54",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.23,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 4,
+          "link_clicks": 4,
+          "impressions": 139
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.21,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 4,
+          "link_clicks": 4,
+          "impressions": 131
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.13,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 94
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 40
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "45-54",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.18,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 4,
+          "link_clicks": 4,
+          "impressions": 99
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.33,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 6,
+          "link_clicks": 6,
+          "impressions": 125
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.37,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 12,
+          "link_clicks": 12,
+          "impressions": 139
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.13,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 55
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "45-54",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 5
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 3
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 3
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 3
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "55-64",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.08,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 63
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.13,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 4,
+          "impressions": 68
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.12,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 3,
+          "impressions": 51
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.05,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 25
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "55-64",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.03,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 47
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.07,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 4,
+          "link_clicks": 4,
+          "impressions": 60
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.1,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 50
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 17
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "65+",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.07,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 53
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.09,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 60
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.09,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 53
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.04,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 27
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "65+",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.09,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 47
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.07,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 40
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.05,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 4,
+          "link_clicks": 4,
+          "impressions": 55
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 23
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "Unknown",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "18-24",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 2.3,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 38,
+          "link_clicks": 38,
+          "impressions": 2811
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 2.69,
+          "messages": 1,
+          "followers": 0,
+          "clicks": 38,
+          "link_clicks": 37,
+          "impressions": 3177
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 2.1,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 30,
+          "link_clicks": 31,
+          "impressions": 2761
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 1.72,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 31,
+          "link_clicks": 31,
+          "impressions": 2619
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 2.29,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 28,
+          "link_clicks": 28,
+          "impressions": 2960
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 1.73,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 19,
+          "link_clicks": 19,
+          "impressions": 2248
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "18-24",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 1.12,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 10,
+          "link_clicks": 10,
+          "impressions": 1550
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 1.27,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 19,
+          "link_clicks": 20,
+          "impressions": 1898
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 1.26,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 14,
+          "link_clicks": 14,
+          "impressions": 1608
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 1.21,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 13,
+          "link_clicks": 13,
+          "impressions": 1472
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.99,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 18,
+          "link_clicks": 17,
+          "impressions": 1432
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.77,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 13,
+          "link_clicks": 13,
+          "impressions": 1204
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "18-24",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 32
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.04,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 34
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 27
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.03,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 28
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 24
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 10
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "25-34",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 3.26,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 41,
+          "link_clicks": 41,
+          "impressions": 2861
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 3.37,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 60,
+          "link_clicks": 62,
+          "impressions": 3093
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 2.98,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 36,
+          "link_clicks": 36,
+          "impressions": 2555
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 2.71,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 38,
+          "link_clicks": 37,
+          "impressions": 2355
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 2.8,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 45,
+          "link_clicks": 45,
+          "impressions": 2472
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 2.17,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 35,
+          "link_clicks": 36,
+          "impressions": 1782
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "25-34",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 1.69,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 17,
+          "link_clicks": 18,
+          "impressions": 1588
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 1.64,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 30,
+          "link_clicks": 30,
+          "impressions": 1719
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 1.46,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 18,
+          "link_clicks": 19,
+          "impressions": 1478
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 1.16,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 20,
+          "link_clicks": 20,
+          "impressions": 1357
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 1.04,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 17,
+          "link_clicks": 18,
+          "impressions": 1144
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 1.15,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 13,
+          "link_clicks": 13,
+          "impressions": 973
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "25-34",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 31
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.07,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 25
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.12,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 15
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 22
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 16
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 16
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "35-44",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 1.87,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 24,
+          "link_clicks": 24,
+          "impressions": 1188
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 1.72,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 23,
+          "link_clicks": 23,
+          "impressions": 1170
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 1.8,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 20,
+          "link_clicks": 20,
+          "impressions": 995
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 1.7,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 14,
+          "link_clicks": 13,
+          "impressions": 963
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 1.51,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 22,
+          "link_clicks": 22,
+          "impressions": 862
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.9,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 10,
+          "link_clicks": 10,
+          "impressions": 580
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "35-44",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.82,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 11,
+          "link_clicks": 11,
+          "impressions": 538
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 1.07,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 5,
+          "link_clicks": 5,
+          "impressions": 555
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.44,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 6,
+          "link_clicks": 6,
+          "impressions": 449
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.74,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 7,
+          "link_clicks": 7,
+          "impressions": 452
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.5,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 9,
+          "link_clicks": 9,
+          "impressions": 360
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.27,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 6,
+          "link_clicks": 6,
+          "impressions": 290
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "35-44",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 8
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.03,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 15
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 6
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 5
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 7
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 5
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "45-54",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.83,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 13,
+          "link_clicks": 13,
+          "impressions": 382
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.98,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 14,
+          "link_clicks": 14,
+          "impressions": 379
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.65,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 7,
+          "link_clicks": 7,
+          "impressions": 290
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.69,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 11,
+          "link_clicks": 11,
+          "impressions": 323
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.7,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 7,
+          "link_clicks": 7,
+          "impressions": 244
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.36,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 165
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "45-54",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.24,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 156
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.15,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 5,
+          "link_clicks": 5,
+          "impressions": 146
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.14,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 141
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.21,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 113
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.12,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 76
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.06,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 76
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "45-54",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "55-64",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.45,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 176
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.36,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 177
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.25,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 5,
+          "link_clicks": 5,
+          "impressions": 121
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.33,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 145
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.26,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 6,
+          "link_clicks": 6,
+          "impressions": 114
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.14,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 80
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "55-64",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.06,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 58
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.07,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 54
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.05,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 41
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.05,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 52
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.07,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 35
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.2,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 28
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "55-64",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 3
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 3
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "65+",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.25,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 154
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.2,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 142
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.14,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 93
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.26,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 5,
+          "link_clicks": 5,
+          "impressions": 140
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.23,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 4,
+          "link_clicks": 5,
+          "impressions": 96
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.15,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 3,
+          "link_clicks": 3,
+          "impressions": 59
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "65+",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.08,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 80
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.05,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 66
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.16,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 57
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.06,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 64
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.08,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 41
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.06,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 37
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "65+",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 4
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 2
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 3
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "Unknown",
+      "gender": "female",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "Unknown",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 2
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "55-64",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-02",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "65+",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-02",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 2
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "age": "Unknown",
+      "gender": "male",
+      "daily": [
+        {
+          "date": "2026-08-02",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "age": "Unknown",
+      "gender": "unknown",
+      "daily": [
+        {
+          "date": "2026-08-03",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 1
+        }
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "campaign_id": "52531917429124",
+      "device": "android_smartphone",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 7.47,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 198,
+          "link_clicks": 202,
+          "impressions": 4253
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 9.21,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 228,
+          "link_clicks": 230,
+          "impressions": 5137
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 8.97,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 265,
+          "link_clicks": 272,
+          "impressions": 4968
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 3.68,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 98,
+          "link_clicks": 99,
+          "impressions": 2005
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "device": "android_tablet",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 43
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 45
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 36
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 16
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "device": "ipad",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 10
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 10
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 7
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.0,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 5
+        }
+      ]
+    },
+    {
+      "campaign_id": "52531917429124",
+      "device": "iphone",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 4.34,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 104,
+          "link_clicks": 102,
+          "impressions": 5688
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 4.38,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 87,
+          "link_clicks": 89,
+          "impressions": 5610
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 3.45,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 79,
+          "link_clicks": 80,
+          "impressions": 5000
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 1.15,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 21,
+          "link_clicks": 23,
+          "impressions": 1917
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "device": "android_smartphone",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 3.07,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 30,
+          "link_clicks": 30,
+          "impressions": 2495
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 2.65,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 31,
+          "link_clicks": 32,
+          "impressions": 2422
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 2.57,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 27,
+          "link_clicks": 27,
+          "impressions": 2032
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 2.45,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 32,
+          "link_clicks": 31,
+          "impressions": 2235
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 2.47,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 42,
+          "link_clicks": 42,
+          "impressions": 2065
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 1.82,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 19,
+          "link_clicks": 19,
+          "impressions": 1681
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "device": "android_tablet",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 23
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.03,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 24
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 32
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 24
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.03,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 35
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 2,
+          "link_clicks": 2,
+          "impressions": 32
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "device": "ipad",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 0.04,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 28
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 0.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 27
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 0.04,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 20
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 0.03,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 22
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 0.06,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 1,
+          "link_clicks": 1,
+          "impressions": 27
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 0.01,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 0,
+          "link_clicks": 0,
+          "impressions": 15
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "device": "iphone",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 9.89,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 132,
+          "link_clicks": 133,
+          "impressions": 9077
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 11.01,
+          "messages": 1,
+          "followers": 0,
+          "clicks": 170,
+          "link_clicks": 171,
+          "impressions": 10180
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 8.95,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 116,
+          "link_clicks": 118,
+          "impressions": 8556
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 8.41,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 112,
+          "link_clicks": 111,
+          "impressions": 7834
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 8.05,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 115,
+          "link_clicks": 116,
+          "impressions": 7758
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 6.14,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 80,
+          "link_clicks": 81,
+          "impressions": 5830
+        }
+      ]
+    }
+  ],
+  "geo": [
+    {
+      "campaign_id": "52531917429124",
+      "country": "GE",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 11.83,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 302,
+          "link_clicks": 304,
+          "impressions": 9994
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 13.61,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 316,
+          "link_clicks": 320,
+          "impressions": 10802
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 12.43,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 344,
+          "link_clicks": 352,
+          "impressions": 10011
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 4.84,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 120,
+          "link_clicks": 123,
+          "impressions": 3943
+        }
+      ]
+    },
+    {
+      "campaign_id": "52639423566724",
+      "country": "GE",
+      "daily": [
+        {
+          "date": "2026-08-01",
+          "spend": 13.02,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 162,
+          "link_clicks": 163,
+          "impressions": 11623
+        },
+        {
+          "date": "2026-08-02",
+          "spend": 13.71,
+          "messages": 1,
+          "followers": 0,
+          "clicks": 201,
+          "link_clicks": 203,
+          "impressions": 12653
+        },
+        {
+          "date": "2026-08-03",
+          "spend": 11.57,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 143,
+          "link_clicks": 145,
+          "impressions": 10640
+        },
+        {
+          "date": "2026-08-04",
+          "spend": 10.9,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 144,
+          "link_clicks": 142,
+          "impressions": 10115
+        },
+        {
+          "date": "2026-08-05",
+          "spend": 10.61,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 158,
+          "link_clicks": 159,
+          "impressions": 9885
+        },
+        {
+          "date": "2026-08-06",
+          "spend": 7.98,
+          "messages": 0,
+          "followers": 0,
+          "clicks": 101,
+          "link_clicks": 102,
+          "impressions": 7558
+        }
+      ]
+    }
+  ],
+  "reach_by_preset": {
+    "all": {
+      "7d": 0,
+      "14d": 75526,
+      "30d": 151998,
+      "month": 66537,
+      "all": 66537
+    },
+    "EN": {
+      "7d": 0,
+      "14d": 0,
+      "30d": 0,
+      "month": 0,
+      "all": 0
+    },
+    "KA": {
+      "7d": 0,
+      "14d": 0,
+      "30d": 0,
+      "month": 0,
+      "all": 0
+    },
+    "RU": {
+      "7d": 0,
+      "14d": 0,
+      "30d": 0,
+      "month": 0,
+      "all": 0
+    }
+  }
+}
